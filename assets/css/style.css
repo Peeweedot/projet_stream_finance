@@ -1,0 +1,319 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe';
+    src: url('../fonts/caf.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinema';
+    src: url('../fonts/Cinematografica-Regular-trial.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quartzo';
+    src: url('../fonts/quartzo.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Body */
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#258dc8+0,258dc8+100;Blue+Flat+%231 */
+    background: #258dc8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #258dc8 0%, #258dc8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #258dc8 0%, #258dc8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #258dc8 0%, #258dc8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8', GradientType=0);
+    /* IE6-9 */
+    font-family: 'Cinema';
+
+}
+
+/*Header*/
+
+.head {
+    font-family: 'quartzo';
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    height: 100%;
+}
+
+#header {
+    text-align: center;
+    margin-top: 225px;
+    margin-bottom: 885px;
+}
+
+
+/*Main content*/
+
+#main_container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-left: 105px;
+}
+
+/*Menu de navigation*/
+
+#menu_left {
+    position: fixed;
+    margin-right: 25px;
+    left: 0px;
+    height: 100%;
+    width: 15%;
+    padding-top: 15px;
+}
+
+#menu {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu > a {
+    width: 100%;
+    font-family: 'BebasNeue';
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-right: 0px;
+    margin: 15px;
+    font-size: 29px;
+    transition: 1s ease;
+    border-bottom: 2px solid #258dc8;
+    border-top: 2px solid #258dc8;
+}
+
+
+
+#menu > a:hover {
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+#menu > a:active {
+    border-bottom: 2px solid white;
+}
+
+#mention {
+    font-family: 'Cafe';
+    color: white;
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+}
+
+#mention > a {
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Block central*/
+
+#container {
+    right: 0px;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: #45484d;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #45484d 0%, #000000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+    padding: 15px;
+    box-shadow: 0px 0px 8px black;
+    color: white;
+    margin: auto;
+    font-family: 'Cinema';
+}
+
+/*Block généraux*/
+
+.services,
+.gallerie,
+.stream,
+.contact {
+    width: 100%;
+    padding: 15px;
+    border-bottom: 2px solid white;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+}
+
+.fa {
+    margin: auto;
+}
+
+.explain {
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.explain > p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+}
+
+.explain > img {
+    width: 75%;
+    height: auto;
+    transition: 1s ease;
+}
+
+.explain > img:hover {
+    width: 100%;
+    padding-left: 15px;
+    height: auto;
+}
+
+/*Services*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+/*Gallerie*/
+
+.gallerie > .list > .explain > p {
+    text-align: center;
+}
+
+/*Stream*/
+
+#stream > iframe {
+    width: 85%;
+    height: 450px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Cinema';
+    font-size: 49px;
+    padding: 15px;
+    text-align: center;
+}
+
+.about_stud {
+    font-size: 22px;
+    text-decoration: underline;
+    font-family: 'Cinema';
+}
+
+#stream > p {
+    font-family: monospace;
+    font-size: 22px;
+}
+
+/*Contact*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact > form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    font-size: 20px;
+}
+
+.input > input {
+    padding: 15px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.contact > form > .formulaire > textarea {
+    padding: 15px;
+    margin: 25px;
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+}
+
+input[type=submit] {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background: #258dc8;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #258dc8 0%, #258dc8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #258dc8 0%, #258dc8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #258dc8 0%, #258dc8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8', GradientType=0);
+    /* IE6-9 */
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/*Bouton scroll top*/
+
+#tothetop {
+    position: relative;
+    bottom: 0px;
+    text-align: right;
+}
+
+#tothetop > a {
+    color: white;
+}
