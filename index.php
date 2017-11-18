@@ -28,7 +28,7 @@
         </div>
         <div id="container">
             <div id="header">
-                <h1 class="head">Work inside</h1>
+                <h1 class="head">Le titre</h1>
                 <span class="fa fa-superpowers fa-5x"></span>
 
             </div>
